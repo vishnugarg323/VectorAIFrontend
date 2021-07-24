@@ -1,0 +1,39 @@
+.images-container {
+  padding: 6vh 16vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.image-div {
+  margin: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 18vw;
+  height: 18vw;
+}
+.image-close {
+  width: 100%;
+  transition: transform 500ms ease;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+}
+
+.image-open {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: none;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
